@@ -1,0 +1,31 @@
+{
+  "descriptionHash": "E9F20444B4C8D1B676E3B8AEC9167BDDB510A736025D02537D296B6984D9C825E3422A021C7C8B97C6419C626D5DF2C84A87C717E56FB9DE44BA9AC65B07BF17",
+  "descriptionLocation": "https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.0.1",
+  "clientClassName": "GitHubClient",
+  "clientNamespaceName": "GitHubDemo.GitHub",
+  "language": "CSharp",
+  "usesBackingStore": false,
+  "includeAdditionalData": false,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [
+    "/orgs/{org}/repos"
+  ],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
