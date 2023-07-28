@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "3BB693B561F892552ED0ECD0699B05EDD1B2E58F8EB196CAA408F7B243EA7C5C7D916BABA2DCF00DB6A06135BDD6B55530050347F7E7DCA63714036FF12D1F5D",
+  "descriptionLocation": "https://raw.githubusercontent.com/Azure/azure-rest-api-specs/master/specification/cognitiveservices/data-plane/NewsSearch/stable/v1.0/NewsSearch.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.5.0",
+  "clientClassName": "BingNewsClient",
+  "clientNamespaceName": "Bing",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}

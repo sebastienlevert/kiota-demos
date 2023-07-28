@@ -1,0 +1,29 @@
+{
+  "descriptionHash": "113541F7D8861C99A49FD610C286815A23D33B393FE3F076AFED5B50A4D9BC00299B01BE040E7DE97F0682D3C06D348B101F5266C98EF2740112FF71B5A9A636",
+  "descriptionLocation": "https://raw.githubusercontent.com/nytimes/public_api_specs/master/movie_reviews/movie_reviews_v2.json",
+  "lockFileVersion": "1.0.0",
+  "kiotaVersion": "1.5.0",
+  "clientClassName": "NytMovieClient",
+  "clientNamespaceName": "Nyt",
+  "language": "TypeScript",
+  "usesBackingStore": false,
+  "includeAdditionalData": true,
+  "serializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Text.TextSerializationWriterFactory",
+    "Microsoft.Kiota.Serialization.Form.FormSerializationWriterFactory"
+  ],
+  "deserializers": [
+    "Microsoft.Kiota.Serialization.Json.JsonParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Text.TextParseNodeFactory",
+    "Microsoft.Kiota.Serialization.Form.FormParseNodeFactory"
+  ],
+  "structuredMimeTypes": [
+    "application/json",
+    "text/plain",
+    "application/x-www-form-urlencoded"
+  ],
+  "includePatterns": [],
+  "excludePatterns": [],
+  "disabledValidationRules": []
+}
